@@ -8,31 +8,46 @@
         <link rel="stylesheet" href="style.css" />
     </head>
 
-    <body>
+    <body id="flex" class="main">
         <div id="tate"></div>
-        <div id="header">
-            <dl>
-                <dd>
-                    <a href="#Works" style="opacity: 1">WORKS</a>
-                    <a href="#Concept" style="opacity: 1">CONCEPT</a>
-                    <a href="#Profile" style="opacity: 1">PROFILE</a>
-                </dd>
-            </dl>
-        </div>
 
-        <div id="yoko"></div>
+        <div>
+            <div class="header_buttons">
+                <a href="#Works" class="link_button">WORKS</a>
+                <a href="#Concept" class="link_button">CONCEPT</a>
+                <a href="#Profile" class="link_button">PROFILE</a>
+            </div>
 
-        <div id="Logo">
-            <h1>KEI MIURA</h1>
-        </div>
-        <div id="profile">
-            <img src="image/myPhoto.jpg" alt="自分の写真" width="500px" />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                accusantium nobis qui voluptate tempora non libero tenetur
-                itaque, deleniti eveniet. Modi error reprehenderit voluptas
-                laboriosam, iste natus consectetur quod inventore!
-            </p>
+            <div id="yoko"></div>
+
+            <div class="content_margin">
+                <div id="Logo">
+                    <h1 class="myname">KEI MIURA</h1>
+                </div>
+
+                <div id="flex">
+                    <p id="word_center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto accusantium nobis qui voluptate tempora non libero
+                        tenetur itaque, deleniti eveniet. Modi error
+                        reprehenderit voluptas laboriosam, iste natus
+                        consectetur quod inventore! Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Ex, voluptates natus
+                        facilis minima, modi iusto fugit quidem similique culpa
+                        libero in eligendi consequatur a quis id neque aperiam
+                        quos distinctio!
+                    </p>
+
+                    <div id="profile">
+                        <img
+                            src="image/myPhoto.jpg"
+                            class="picture_right"
+                            alt="自分の写真"
+                            width="650px"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

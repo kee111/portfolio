@@ -1,15 +1,76 @@
+.main {
+    /* font-family: "Gill Sans", sans-serif; */
+    background-color: #fbfafa;
+}
+
 #yoko {
     width: 100%; /* 横棒の長さ */
-    height: 35px; /* 横棒の幅 */
+    height: 6px; /* 横棒の幅 */
     background: #000000; /* 横棒の色 */
-    margin: 0%;
+    margin-top: 20px;
 }
 
 #tate {
-    position: relative;
-    width: 25px; /* 縦棒の幅 */
-    height: 1700px; /* 縦棒の長さ */
+    position:fixed;
+    width: 8px; /* 縦棒の幅 */
+height: 100%;
     background: #000000; /* 縦棒の色 */
-    margin: 0;
-    
+    margin-left: 32px;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile {
+    text-align: right;
+}
+
+.picture_right {
+    /* border-radius: 16px; */
+    margin-right: 70px;
+    text-align: right;
+}
+
+.link_button {
+    color: #0000008a;
+    text-decoration: none;
+    margin: 8px;
+}
+.link_button:hover {
+    color: #424242;
+}
+
+.content_margin {
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-left: 16px;
+}
+
+.header_buttons {
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 22px;
+    margin-right: 70px;
+}
+
+#word_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.myname {
+    font-family: "Courier New";
+    font-weight: lighter;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 70px;
 }
