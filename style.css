@@ -1,0 +1,15 @@
+#yoko {
+    width: 100%; /* 横棒の長さ */
+    height: 35px; /* 横棒の幅 */
+    background: #000000; /* 横棒の色 */
+    margin: 0%;
+}
+
+#tate {
+    position: relative;
+    width: 25px; /* 縦棒の幅 */
+    height: 1700px; /* 縦棒の長さ */
+    background: #000000; /* 縦棒の色 */
+    margin: 0;
+    
+}
