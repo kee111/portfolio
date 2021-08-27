@@ -6,16 +6,15 @@
 #yoko {
     width: 100%; /* 横棒の長さ */
     height: 6px; /* 横棒の幅 */
-    background: #000000; /* 横棒の色 */
-    margin-top: 20px;
+    background: #363636bc; /* 横棒の色 */
 }
 
 #tate {
-    position:fixed;
+    position: fixed;
     width: 8px; /* 縦棒の幅 */
-height: 100%;
-    background: #000000; /* 縦棒の色 */
-    margin-left: 32px;
+    height: 100%;
+    background: #363636bc; /* 縦棒の色 */
+    margin-left: 71px;
 }
 
 #flex {
@@ -45,7 +44,6 @@ height: 100%;
 .content_margin {
     margin-left: 70px;
     margin-top: 30px;
-    padding-left: 16px;
 }
 
 .header_buttons {
@@ -53,24 +51,28 @@ height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 15px;
     margin-right: 70px;
+    margin-bottom: 15px;
 }
 
 #word_center {
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .myname {
-    font-family: "Courier New";
+    letter-spacing: 10px;
+    font-family: serif;
     font-weight: lighter;
     margin-top: 70px;
     margin-left: 70px;
+    margin-bottom: 40px;
     font-size: 70px;
 }
