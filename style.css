@@ -3,34 +3,31 @@
     background-color: #fbfafa;
 }
 
-#yoko {
+.yoko {
     width: 100%; /* 横棒の長さ */
-    height: 6px; /* 横棒の幅 */
-    background: #363636bc; /* 横棒の色 */
+    height: 3px; /* 横棒の幅 */
+    background: #000000bc;
 }
 
-#tate {
+.tate {
     position: fixed;
-    width: 8px; /* 縦棒の幅 */
+    width: 3px; /* 縦棒の幅 */
     height: 100%;
-    background: #363636bc; /* 縦棒の色 */
+    background: #000000bc;
     margin-left: 71px;
 }
 
-#flex {
-    display: flex;
+.top-container {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    /* display: flex; */
     flex-direction: row;
 }
 
-#profile {
+/* .profile {
     text-align: right;
-}
-
-.picture_right {
-    /* border-radius: 16px; */
-    margin-right: 70px;
-    text-align: right;
-}
+} */
 
 .link_button {
     color: #0000008a;
@@ -39,11 +36,6 @@
 }
 .link_button:hover {
     color: #424242;
-}
-
-.content_margin {
-    margin-left: 70px;
-    margin-top: 30px;
 }
 
 .header_buttons {
@@ -56,23 +48,44 @@
     margin-bottom: 15px;
 }
 
-#word_center {
+.words {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 600px;
     text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    font-size: 20px;
+    margin-right: 40px;
+    color: #222222bc;
+}
+.top-container .aa {
+    position: absolute;
+    left: 700px;
+    top: 0;
 }
 
-.myname {
-    letter-spacing: 10px;
-    font-family: serif;
+section {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+main section h1 {
+    letter-spacing: 25px;
     font-weight: lighter;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-bottom: 40px;
     font-size: 70px;
+    margin: 60px 0 70px 0;
+    font-family: "Alegreya Sans SC", sans-serif;
+    /* color: #363636bc; */
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
 }
