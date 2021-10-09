@@ -96,14 +96,21 @@ main .section h1 {
 
 /* works */
 
-#works{
+#works .wrapper{
+    display: flex;
+}
+
+#works .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 .photo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 2px black;
     width: 200px;
     height: 200px;
@@ -111,7 +118,22 @@ main .section h1 {
     margin-right: 30px;
     transition: 0.8s;
 }
+.photo p{
+    color: #000000;
+    transition: 0.8s;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 30px;
+}
 
-.photo:hover {
+.photo:hover{
     background-color: #000000;
 }
+.photo:hover p{
+    opacity: 1;
+    color: white;
+
+}
+
+/* .photo p:hover */
+
+
