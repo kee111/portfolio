@@ -7,14 +7,14 @@
 .yoko {
     width: 100%; /* 横棒の長さ */
     height: 2px; /* 横棒の幅 */
-    background: #000000bc;
+    background: #000000;
 }
 
 .tate {
     position: fixed;
     width: 2px; /* 縦棒の幅 */
     height: 100%;
-    background: #000000bc;
+    background: #000000;
     margin-left: 71px;
 }
 
@@ -80,7 +80,7 @@ main .section h1 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    font-weight: 240;
+    font-weight: 280;
 
     width: 600px;
     text-align: justify;
@@ -96,7 +96,7 @@ main .section h1 {
 
 /* works */
 
-#likes {
+#works{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,6 @@ main .section h1 {
     margin: 0px 50px 10px 0px;
     margin-right: 30px;
     transition: 0.8s;
-
 }
 
 .photo:hover {
