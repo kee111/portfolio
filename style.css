@@ -6,13 +6,13 @@
 /* line  */
 .yoko {
     width: 100%; /* 横棒の長さ */
-    height: 3px; /* 横棒の幅 */
+    height: 2px; /* 横棒の幅 */
     background: #000000bc;
 }
 
 .tate {
     position: fixed;
-    width: 3px; /* 縦棒の幅 */
+    width: 2px; /* 縦棒の幅 */
     height: 100%;
     background: #000000bc;
     margin-left: 71px;
@@ -51,6 +51,7 @@ main .section h1 {
     color: #0000008a;
     text-decoration: none;
     margin: 8px;
+    font-weight: 240;
 }
 .link_button:hover {
     color: #424242;
@@ -79,6 +80,7 @@ main .section h1 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    font-weight: 240;
 
     width: 600px;
     text-align: justify;
@@ -94,7 +96,7 @@ main .section h1 {
 
 /* works */
 
-#likes{
+#likes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,13 +104,15 @@ main .section h1 {
 
 .photo {
     display: inline-block;
-    background-color: #000000;
+    border: solid 2px black;
     width: 200px;
     height: 200px;
     margin: 0px 50px 10px 0px;
-
     margin-right: 30px;
+    transition: 0.8s;
+
 }
-/* .photo:nth-child(4x) {
-    margin-right: 0;
-} */
+
+.photo:hover {
+    background-color: #000000;
+}
