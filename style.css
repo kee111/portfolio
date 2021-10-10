@@ -53,6 +53,8 @@ header a {
   font-weight: 240;
   margin: 8px;
   color: #0000008a;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 header a:hover {
@@ -94,10 +96,10 @@ header a:hover {
 
 #skill .skills a {
   display: inline-block;
-  width: 200px;
-  height: 200px;
   line-height: 200px;
   text-align: center;
+  width: 200px;
+  height: 200px;
   font-size: 30px;
   -webkit-transition: 0.8s;
   transition: 0.8s;
