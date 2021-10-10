@@ -1,0 +1,104 @@
+// h1用関数
+h1 {
+    margin: 65px auto 70px auto;
+    width: 1200px;
+    letter-spacing: 25px;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+
+// 初期設定
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    padding: 70px 0 0 70px;
+    height: 100vh;
+}
+
+// 固定ライン
+.line {
+    #tate {
+        position: fixed;
+        margin-left: 70px;
+        width: 2px; /* 縦棒の幅 */
+        height: 100%; /* 縦棒の長さ */
+        background: #000000;
+        z-index: 1;
+    }
+    #yoko {
+        position: fixed;
+        margin-top: 70px;
+        width: 100%; /* 横棒の長さ */
+        height: 2px; /* 横棒の幅 */
+        background: #000000;
+        z-index: 1;
+    }
+}
+
+// ヘッダー
+header {
+    position: fixed;
+    font-size: 17px;
+    top: 23px;
+    left: 1150px;
+    z-index: 1;
+    a {
+        text-decoration: none;
+        font-weight: 240;
+        margin: 8px;
+        color: #0000008a;
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+// プロフィール
+#profile {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+
+        .words {
+            width: 600px;
+            font-size: 20px;
+            font-weight: 280;
+            text-align: justify;
+            color: #000000;
+        }
+    }
+}
+
+// スキル
+#skill {
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1200px;
+        a {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+            font-size: 30px;
+            transition: 0.8s;
+            border: solid 2px black;
+            color: #000000;
+            font-family: "Alegreya Sans SC", sans-serif;
+            &:hover {
+                background-color: #000000;
+                color: white;
+            }
+        }
+    }
+}

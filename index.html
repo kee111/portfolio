@@ -16,24 +16,26 @@
         <link rel="stylesheet" href="style.css" />
     </head>
 
-    <body class="main">
-        <div class="tate"></div>
-
-        <div class="header">
-            <div class="header_buttons">
-                <a href="#top" class="link_button">PROFILE</a>
-                <a href="#works" class="link_button">WORKS</a>
-                <a href="#SKILLS" class="link_button">SKILLS</a>
-            </div>
-
-            <div class="yoko"></div>
+    <body>
+        <!-- 固定ライン -->
+        <div class="line">
+            <div id="tate"></div>
+            <div id="yoko"></div>
         </div>
 
-        <main>
-            <div id="top" class="section">
-                <h1 class="myname">KEI MIURA.</h1>
+        <!-- ヘッダー -->
+        <header>
+            <a href="#profile" class="header_button">PROFILE</a>
+            <a href="#skill" class="header_button">WORKS</a>
+            <a href="#SKILLS" class="header_button">SKILLS</a>
+        </header>
 
-                <div class="container">
+        <!-- プロフィール -->
+        <main>
+            <section id="profile" class="container">
+                <h1>KEI MIURA.</h1>
+
+                <div class="top">
                     <p class="words">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Iusto accusantium nobis qui voluptate tempora non libero
@@ -45,8 +47,7 @@
                         culpa libero in eligendi consequatur a quis class neque
                         aperiam quos distinctio!
                     </p>
-
-                    <div class="aa">
+                    <div class="myPhoto">
                         <img
                             src="image/profile/myPhoto.jpg"
                             class="picture_right"
@@ -55,31 +56,18 @@
                         />
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div id="works" class="section">
+            <section id="skill" class="container">
                 <h1>WORKS</h1>
-                <div class="wrapper">
-                    <div class="container">
-                        <div class="photo">
-                            <p>Java</p>
-                        </div>
-                        <div class="photo">
-                            <p>Javascript</p>
-                        </div>
-                        <div class="photo">
-                            <p>React</p>
-                        </div>
-                        <div class="photo">
-                            <p>SQL</p>
-                        </div>
-                        <div class="photo">
-                            <p>GitHub</p>
-                        </div>
-                    </div>
-
+                <div class="skills">
+                    <a href="#">Java</a>
+                    <a href="#">Javascript</a>
+                    <a href="#">React</a>
+                    <a href="#">SQL</a>
+                    <a href="#">Git</a>
                 </div>
-            </div>
+            </section>
 
             <!-- <section>
                 <h1></h1>
