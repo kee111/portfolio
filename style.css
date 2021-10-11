@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  overscroll-behavior: none;
+}
+
 h1 {
   margin: 65px auto 70px auto;
   width: 1200px;
@@ -111,5 +115,67 @@ header a:hover {
 #skill .skills a:hover {
   background-color: #000000;
   color: white;
+}
+
+#contact .form_wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#contact .form_wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .form_wrapper form .wrap_tbl dl {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+#contact .form_wrapper form .wrap_tbl dl button {
+  float: right;
+  font-weight: 100;
+  padding: 0 8px;
+  background-color: white;
+  border: 0 solid white;
+  border-bottom: 1px solid #000000;
+  line-height: 33px;
+}
+
+#contact .form_wrapper form .wrap_tbl dl dt {
+  float: left;
+  font-weight: 100;
+}
+
+#contact .form_wrapper form .wrap_tbl dl dd {
+  margin-left: 100px;
+}
+
+#contact .form_wrapper form .wrap_tbl dl dd .ex {
+  font-size: 11px;
+  font-weight: 100;
+}
+
+#contact .form_wrapper form .wrap_tbl dl dd input {
+  height: 42px;
+  width: 580px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1 solid black;
+}
+
+#contact .form_wrapper form .wrap_tbl dl dd textarea {
+  font-size: 14px;
+  padding: 6px 10px;
+  border: 1 solid black;
+  color: black;
+  display: block;
+  margin: 0;
+  width: 580px;
 }
 /*# sourceMappingURL=style.css.map */
